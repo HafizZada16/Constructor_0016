@@ -17,4 +17,8 @@ private:
     {
         nim = iNim;
     };
+    Mahasiswa(string iNama)
+    {
+        nama = iNama;
+    };
 };
