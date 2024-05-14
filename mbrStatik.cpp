@@ -10,5 +10,6 @@ public:
 
     void setID();
 
+    void printAll();
     
 };
