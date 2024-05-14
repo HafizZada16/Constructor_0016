@@ -23,3 +23,9 @@ public:
 };
 
 int mahasiswa::nim = 0;
+
+void mahasiswa::printAll()
+{
+    cout << "ID   = " << id << endl;
+    cout << "Nama = " << nama << endl;
+}
