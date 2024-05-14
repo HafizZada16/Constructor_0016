@@ -4,10 +4,10 @@ using namespace std;
 
 class Mahasiswa
 {
-public:
+private:
     int nim;
     string nama;
-private:
+public:
     Mahasiswa()
     {
         nim = 0;
@@ -38,7 +38,7 @@ int main()
     Mahasiswa mhs1;
     Mahasiswa mhs2(20);
     Mahasiswa mhs3("Indra");
-    Mahasiswa mhs4(30, "Fauzan")
+    Mahasiswa mhs4(30, "Fauzan");
 
     mhs1.cetak();
     mhs2.cetak();
